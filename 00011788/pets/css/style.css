@@ -1,0 +1,244 @@
+/* MAIN STYLING */
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-size: 44px;
+  color: #545454;
+  line-height: 130%;
+}
+
+h3 {
+  font-size: 35px;
+  color: #545454;
+  margin-bottom: 25px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+}
+
+h4 {
+  font-size: 20px !important;
+  color: #545454;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+}
+
+h5 {
+  font-size: 15px;
+  color: #545454;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  margin-bottom: 20px;
+}
+
+p.lg-p {
+  font-size: 15px;
+  color: #4C4C4C;
+  line-height: 160%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 25px;
+  line-height: 160%;
+}
+
+p.sm-p {
+  font-size: 12px;
+  color: #B2B2B2;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 18px;
+}
+/* END MAIN STYLING */
+
+/* HEADER STYLING */
+header {
+  width: 100%;
+  background: #FFF;
+  padding: 30px 40px;
+}
+
+header .wrapper {
+  display: flex;
+  width: 1200px;
+  max-width: 1200px;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+header .logo a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  display: block;
+}
+
+header .logo a h1.title {
+  font-size: 32px;
+  line-height: 110%;
+  letter-spacing: 0.12rem;
+  color: #545454;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+header .logo a h2.subtitle {
+  color: #292929;
+  font-size: 13px;
+  line-height: 13px;
+  letter-spacing: 0.08rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header .nav-menu ul {
+  display: flex;
+  flex-direction: row;
+}
+
+header .nav-menu ul li {
+  margin-right: 35px;
+  font-size: 15px;
+  line-height: 160%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header .nav-menu ul li:last-child {
+  margin-right: 0;
+}
+
+header .nav-menu ul li a {
+  color: #545454;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+header .nav-menu ul li a:hover {
+  color: #292929;
+}
+
+header .nav-menu ul li.active {
+  border-bottom: 3px solid #F1CDB3;
+}
+/* END HEADER STYLING */
+
+/* MAIN CONTENT STYLING */
+main {
+  width: 100%;
+  background-color: #F6F6F6;
+  padding: 80px 40px;
+}
+
+.wrapper {
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cards {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 45px;
+  align-content: center;
+  align-items: center;
+}
+
+.cards .card-body {
+  width: 270px;
+  height: 435px;
+  background-color: #FAFAFA;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 30px;
+}
+
+.cards .card-body h4 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cards .btn {
+  width: 187px;
+  height: 52px;
+  background-color: transparent;
+  border: 2px solid #F1CDB3;
+  border-radius: 2rem;
+  padding: 15px auto;
+  display: flex;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0 auto 30px auto;
+}
+
+.cards .btn img, .cards .btn span, .cards .btn h4 {
+  text-align: center;
+  color: #292929;
+  font-size: 17px;
+  display: block;
+  margin: 0 auto;
+  align-self: center;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+}
+
+.cards .btn:hover {
+  background-color: #FDDCC4;
+  border-color: #FDDCC4;
+}
+
+.cards .card-body:hover {
+  background-color: #FFF;
+  box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+/* END MAIN CONTENT STYLING */
+
+/* FOOTER STYLING */
+footer {
+  width: 100%;
+  height: 355px;
+  position: relative;
+  background-image: url("../../../assets/images/footer-gradient-background.png");
+}
+
+footer .wrapper {
+  width: 1200px;
+  position: absolute;
+  bottom: 0;
+  margin: 40px calc(100vh - 1200px / 2) 0 calc(100vh - 1200px / 2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer .wrapper h3 {
+  color: #FFF;
+  margin-bottom: 40px;
+}
+
+footer .info-block {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+footer .info-block a {
+  margin-right: 20px;
+}
+
+footer .info-block h4 {
+  color: #F1CDB3;
+}
+/* END FOOTER STYLING */
